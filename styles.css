@@ -1,0 +1,25 @@
+
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.starwars{
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  line-height: 100%;
+  transform: perspective(400px) rotateX(45deg);
+  padding-left: 25%;
+  padding-right: 25%;
+  font-family: 'Bitter';
+  font-size:40px;
+  color: #fff; /* Request for white text - 13 nov 14:52 */
+}
+
+.crawl-txt{
+    text-align: center;
+}
